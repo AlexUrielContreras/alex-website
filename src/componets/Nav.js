@@ -4,10 +4,10 @@ function Nav() {
     return (
         <>
         <Flex justifyContent='space-around' fontSize='xl' my={5}> 
-            <Link>Skills</Link>
+            <Link >Skills</Link>
             <Link>Projects</Link>
-            <Link>Resume</Link>
-            <Link>Socials</Link>
+            <Link >Resume</Link>
+            <Link >Socials</Link>
         </Flex>
         </>
     )

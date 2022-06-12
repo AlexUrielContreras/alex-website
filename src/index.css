@@ -1,5 +1,14 @@
+body {
+  height: 100%;
+}
 header {
   border-bottom: 2px black solid;
-  width: 80vw;
-  margin: 0 auto
+  width: 90vw;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .7px;
+}
+.selected {
+  transform: translate(0, 20px);
+  font-weight: bolder;
 }
