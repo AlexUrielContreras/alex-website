@@ -1,5 +1,9 @@
-body {
-  height: 100%;
+body{
+  height: 100vh;
+}
+main {
+  width: 80vw;
+  margin: auto;
 }
 header {
   border-bottom: 2px black solid;

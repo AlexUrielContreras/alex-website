@@ -1,5 +1,6 @@
-import { ChakraProvider, Flex } from '@chakra-ui/react';
+import { ChakraProvider} from '@chakra-ui/react';
 import Nav from './componets/Nav'
+import About from './pages/About'
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       <header>
         <Nav />
       </header>
+      <main>
+        <About />
+      </main>
     </ChakraProvider>
   );
 }
