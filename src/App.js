@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { ChakraProvider, Flex } from '@chakra-ui/react';
+import Nav from './componets/Nav'
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <ChakraProvider>
+      <header>
+        <Nav />
+      </header>
+    </ChakraProvider>
   );
 }
 
