@@ -8,11 +8,10 @@ import Project from './pages/Projects'
 function App() { 
   const tabs = ['Skills', 'Projects', 'Resume', 'Socials'];
 
-  const [currentTab, setCurrentTab ] = useState(tabs[0])
+  const [currentTab, setCurrentTab ] = useState(' ')
+  console.log(currentTab)
 
-  function renderTab(name) {
-    console.log(name)
-    
+  function renderTab(name) { 
     switch (name) {
     case 'Skills': 
       return <Skills />
@@ -26,7 +25,7 @@ function App() {
   return (
     <ChakraProvider>
       <header>
-        <Nav tabs={tabs} setCurrentTab={setCurrentTab}/>
+        <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>
         {renderTab(currentTab.tab)}
