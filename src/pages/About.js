@@ -7,17 +7,13 @@ function About() {
             <Heading as='h2' fontSize='2xl'>Full Stack Developer</Heading>
 
             <Text as='p' my={10} textAlign='justify'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Nec feugiat nisl pretium fusce id velit ut tortor pretium. Nunc lobortis mattis aliquam faucibus purus in. Enim tortor at 
-                auctor urna nunc. Vitae semper quis lectus nulla. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. 
-                Facilisi nullam vehicula ipsum a arcu cursus. Egestas diam in arcu cursus euismod quis viverra nibh cras. Ornare quam viverra 
-                orci sagittis eu volutpat odio. Ac felis donec et odio pellentesque diam volutpat. Tristique senectus et netus et malesuada fames. 
-                Est ultricies integer quis auctor elit sed vulputate mi sit. Elit sed vulputate mi sit. Nunc congue nisi vitae suscipit tellus. 
-                Ac placerat vestibulum lectus mauris. Nascetur ridiculus mus mauris vitae ultricies. Tincidunt vitae semper quis lectus nulla. 
-                Turpis cursus in hac habitasse platea. A scelerisque purus semper eget duis at tellus at urna.
-
-                Metus vulputate eu scelerisque felis imperdiet proin. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Lectus 
-                vestibulum mattis ullamcorper velit. Egestas congue quisque egestas diam in arcu cursus. Eleifend mi in nulla posuere sollicitudin 
+                Hello! My name is Alex Contreras and I'm a Full Stack Developer. I completed The University of Kansas Full Stack Devloper Course were
+                we learned a new language or tool every week and impleament into a project. We also grouped up to plan, implement, and present 3 projects.
+                Projects ranged from a simple website that grabs data from an API, to creating full stack applications using the MERN tech stack. 
+                Being able to expirence working in a team was very eye-opening, I learned that comunication, flexablity, paitients, and hard work is key to getting 
+                the final product up and running. Some of my favorite thing I learned were Frameworks like Bootsrap to quickly create a responsive front end,
+                React to be able to create interactive UI using componets, and RDBMS like MySQL to be able to create tables and easily link data that are realated to 
+                each other.
             </Text>
         </Flex>
 

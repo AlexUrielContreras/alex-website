@@ -1,15 +1,13 @@
-import { Link, Flex, Box} from '@chakra-ui/react';
+import { Link, Flex} from '@chakra-ui/react';
 
-function Nav() {
+function Nav({tabs, setCurrentTab}) {
+
     return (
-        <>
         <Flex justifyContent='space-around' fontSize='xl' py={5}> 
-            <Link>Skills</Link>
-            <Link>Projects</Link>
-            <Link >Resume</Link>
-            <Link >Socials</Link>
+            {tabs.map(tab => (
+                <Link key={tab} onClick={() => setCurrentTab({tab})}>{tab}</Link>
+            ))}
         </Flex>
-        </>
     )
 };
 
