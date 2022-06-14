@@ -20,11 +20,22 @@ function App() {
     default :
       return <About />
   }
-}
-  
+};
+
+
+    let w = window.outerWidth
+    const [currentW , setCurrentW] = useState(w)
+
+    function resize() {
+      w = window.outerWidth
+      setCurrentW(w)
+    }
+    window.onresize = resize;
+
   return (
     <ChakraProvider>
       <header>
+        {currentW > 1000 && currentTab !== ' ' ? <h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>

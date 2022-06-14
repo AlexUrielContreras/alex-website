@@ -4,16 +4,17 @@ function Skills() {
     return (
         <>
             <Box >
-                <Heading as='h2' textAlign='center' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Programming Languages</Heading>
+                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Languages</Heading>
                 <ul className='skill-list'>
                     <li className='skill-item'>HTML</li>
                     <li className='skill-item'>CSS</li>
+                    <li className='skill-item'>SaSS</li>
                     <li className='skill-item'>JAVASCRIPT</li>
                     <li className='skill-item'>SQL</li>
                 </ul>
             </Box>
             <Box >
-                <Heading as='h2' textAlign='center' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Javascript Libraries/Frameworks</Heading>
+                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Javascript Tools</Heading>
                 <ul className='skill-list'>
                     <li className='skill-item'>React</li>
                     <li className='skill-item'>jQuery</li>
@@ -22,14 +23,14 @@ function Skills() {
                 </ul>
             </Box>
             <Box >
-                <Heading as='h2' textAlign='center' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Frameworks</Heading>
+                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Frameworks</Heading>
                 <ul className='skill-list'>
                     <li className='skill-item'>Bootstrap</li>
                     <li className='skill-item'>Materalize</li>
                 </ul>
             </Box>
             <Box >
-                <Heading as='h2' textAlign='center' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>DBMS/ORM/ODM</Heading>
+                <Heading as='h2'  mt={10} fontSize={{base: '2xl' , md: '4xl'}}>DB/ORM/ODM</Heading>
                 <ul className='skill-list'>
                     <li className='skill-item'>MYSQL</li>
                     <li className='skill-item'>MongoDB</li>
@@ -38,7 +39,7 @@ function Skills() {
                 </ul>
             </Box>
             <Box >
-                <Heading as='h2' textAlign='center' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Other Tools</Heading>
+                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Other Tools</Heading>
                 <ul className='skill-list'>
                     <li className='skill-item'>Jest</li>
                     <li className='skill-item'>HandleBars</li>
