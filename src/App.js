@@ -4,12 +4,13 @@ import Nav from './componets/Nav'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Projects'
+import Social from './pages/Contacts'
 
 function App() { 
-  const tabs = ['Skills', 'Projects', 'Resume', 'Socials'];
+  const tabs = ['Skills', 'Projects', 'Resume', 'Contacts'];
 
   const [currentTab, setCurrentTab ] = useState(' ')
-  console.log(currentTab)
+
 
   function renderTab(name) { 
     switch (name) {
@@ -17,6 +18,8 @@ function App() {
       return <Skills />
     case 'Projects': 
       return <Project />
+    case 'Contacts' :
+      return <Social/>
     default :
       return <About />
   }
@@ -35,7 +38,7 @@ function App() {
   return (
     <ChakraProvider>
       <header>
-        {currentW > 1000 && currentTab !== ' ' ? <h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1> : null}
+        {currentW > 769 && currentTab !== ' ' ? <h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>

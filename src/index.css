@@ -35,3 +35,8 @@ header {
   text-align: center;
   border-bottom: 2px black solid
 }
+.contact-selected:hover {
+  transform: scale(1.5);
+  color: red;
+  font-size: 30px
+}
