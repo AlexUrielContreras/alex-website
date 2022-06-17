@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChakraProvider} from '@chakra-ui/react';
+import { ChakraProvider, Link} from '@chakra-ui/react';
 import Nav from './componets/Nav'
 import About from './pages/About'
 import Skills from './pages/Skills'
@@ -9,8 +9,15 @@ import Social from './pages/Contacts'
 function App() { 
   const tabs = ['Skills', 'Projects', 'Resume', 'Contacts'];
 
-  const [currentTab, setCurrentTab ] = useState(' ')
+  const [currentTab, setCurrentTab ] = useState(' ');
+  const [currentW , setCurrentW] = useState(window.outerWidth);
 
+  function resize() {
+    setCurrentW(window.outerWidth)
+  }
+
+  // Calls the resize function when ever the window width Changes
+  window.onresize = resize;
 
   function renderTab(name) { 
     switch (name) {
@@ -22,23 +29,13 @@ function App() {
       return <Social/>
     default :
       return <About />
-  }
-};
-
-
-    let w = window.outerWidth
-    const [currentW , setCurrentW] = useState(w)
-
-    function resize() {
-      w = window.outerWidth
-      setCurrentW(w)
     }
-    window.onresize = resize;
+  };
 
   return (
     <ChakraProvider>
       <header>
-        {currentW > 769 && currentTab !== ' ' ? <h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1> : null}
+        {currentW > 769 && currentTab !== ' ' ? <Link><h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1></Link> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>
