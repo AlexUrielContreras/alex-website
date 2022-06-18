@@ -40,3 +40,9 @@ header {
   color: red;
   font-size: 30px
 }
+.contact-form {
+  width: 60vw;
+  border: 3px black solid;
+  padding: 15px;
+  margin: 25px auto;
+}
