@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChakraProvider, Link} from '@chakra-ui/react';
-import Nav from './componets/Nav'
+import Nav from './pages/Nav'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Projects'
