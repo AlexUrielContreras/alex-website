@@ -30,16 +30,16 @@ header {
   font-size: 1.2rem
 }
 .nav-title {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   font-weight: bolder;
   text-align: center;
-  border-bottom: 2px black solid;
-  
-}
-.contact-selected:hover {
-  transform: scale(1.5);
-  color: red;
-  font-size: 30px
+  position: absolute;
+  left: 900px;
+  top: 10px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  width: 75px;
+
 }
 .contact-form {
   width: 60vw;

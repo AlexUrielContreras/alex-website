@@ -6,7 +6,7 @@ function About() {
             <Heading as='h1' fontSize='4xl'>Alex U. Contreras</Heading>
             <Heading as='h2' fontSize='2xl'>Full Stack Developer</Heading>
 
-            <Text as='p' my={10} textAlign='justify'>
+            <Text as='p' my={10} textAlign='justify' fontSize='lg'>
                 Hello! My name is Alex Contreras and I'm a Full Stack Developer. I completed The University of Kansas Full Stack Devloper Course were
                 we learned a new language or tool every week and impleament into a project. We also grouped up to plan, implement, and present 3 projects.
                 Projects ranged from a simple website that grabs data from an API, to creating full stack applications using the MERN tech stack. 

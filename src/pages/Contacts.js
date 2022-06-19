@@ -47,10 +47,10 @@ function Social() {
     }
     return (
         <>
-        {emailSent ? <Alert status='success'>
-            <AlertIcon/>
-            <AlertTitle>{emailSent}</AlertTitle>
-        </Alert>: null }
+            {emailSent ? <Alert status='success'>
+                <AlertIcon />
+                <AlertTitle>{emailSent}</AlertTitle>
+            </Alert> : null}
             <form onSubmit={sendEmail} className='contact-form'>
                 <FormControl isRequired >
                     <FormLabel>Name</FormLabel>
@@ -72,24 +72,25 @@ function Social() {
                     <FormLabel mt={5}>Message</FormLabel>
                     <Textarea type='text' variant='filled' name='message' />
                 </FormControl>
-                {errorMessage === ''? 
-                <Button type='submit' variant='outline' mt={5}>Send</Button>
-                : null }
+                {errorMessage === '' ?
+                    <Button type='submit' variant='outline' mt={5}>Send</Button>
+                    : null}
             </form>
             <Box>
-            <Flex align={{base: 'center', md: 'start'}}  textAlign='center'>   
-            <Flex m={5} direction='row'>
-                <Box  className='contact-selected'>GITHUB</Box>
-            </Flex>
-            <Flex m={5} direction='row'>
-                <Box className='contact-selected'>GITHUB</Box>
-            </Flex>
-            <Flex m={5} direction='row'>
-                <Box  className='contact-selected'>GITHUB</Box>
-            </Flex>       
-        </Flex>
-        </Box>
-    
+                <h2>Check out my Socials</h2>
+                <Flex align={{ base: 'center', md: 'start' }} textAlign='center'>
+                    <Flex m={5} direction='row'>
+                        <Link href='https://www.linkedin.com/in/alex-contreras-/'>Linkedin</Link>
+                    </Flex>
+                    <Flex m={5} direction='row'>
+                        <Link >Github</Link>
+                    </Flex>
+                    <Flex m={5} direction='row'>
+                        <Link >Twitter</Link>
+                    </Flex>
+                </Flex>
+            </Box>
+
         </>
     )
 };

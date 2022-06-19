@@ -35,7 +35,7 @@ function App() {
   return (
     <ChakraProvider>
       <header>
-        {currentW > 769 && currentTab !== ' ' ? <Link><h1 className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</h1></Link> : null}
+        {currentW > 769 && currentTab !== ' ' ?  <Link className='nav-title' onClick={() => setCurrentTab(' ')}>AC</Link> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>
