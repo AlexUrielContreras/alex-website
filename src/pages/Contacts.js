@@ -10,6 +10,7 @@ import {
     Alert,
     AlertIcon,
     AlertTitle,
+    Heading
 } from '@chakra-ui/react'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
@@ -76,16 +77,16 @@ function Social() {
                     <Button type='submit' variant='outline' mt={5}>Send</Button>
                     : null}
             </form>
-            <Box>
-                <h2>Check out my Socials</h2>
-                <Flex align={{ base: 'center', md: 'start' }} textAlign='center'>
-                    <Flex m={5} direction='row'>
+            <Box textAlign='center'>
+                <Heading as='h2' fontSize='3xl'>Check out my Socials</Heading>
+                <Flex align={{ base: 'center', md: 'start' }} justifyContent='center'>
+                    <Flex m={5} direction='row' fontSize='3xl'>
                         <Link href='https://www.linkedin.com/in/alex-contreras-/'>Linkedin</Link>
                     </Flex>
-                    <Flex m={5} direction='row'>
+                    <Flex m={5} direction='row' fontSize='3xl'>
                         <Link >Github</Link>
                     </Flex>
-                    <Flex m={5} direction='row'>
+                    <Flex m={5} direction='row' fontSize='3xl'>
                         <Link >Twitter</Link>
                     </Flex>
                 </Flex>
