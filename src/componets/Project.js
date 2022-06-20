@@ -1,11 +1,16 @@
 import { Box,Image,Heading, Text } from '@chakra-ui/react'
 
-function Project({bg, title}) {
+function Project({info}) {
+    
+    const {name , description} = info
     return (
-        <Box bg={bg} w={{base:'80vw', md: '60vw', lg:'25vw'}} h={{base:'45vh'}} m={7}>
-            <Image  src/>
-            <Heading as='h3'>{title}</Heading>
-            <Text as='p' fontSize={{base:'lg'}}></Text>
+        <Box border='2px' w={{base:'80vw', md: '60vw', lg:'25vw'}}  m={7}>
+            <Image  src={require(`../assets/project-img/${name}.png`)} />
+            <Box p={2}>
+                <Heading as='h3'>{name}</Heading>
+                <link></link>
+                <Text as='p' fontSize={{base:'lg'}} textAlign='justify'>{description}</Text>
+            </Box>
         </Box>
     )
 };
