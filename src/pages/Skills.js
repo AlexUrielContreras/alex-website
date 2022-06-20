@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from '@chakra-ui/react';
+import { Box,  Heading } from '@chakra-ui/react';
 
 function Skills() {
     return (

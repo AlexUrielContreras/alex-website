@@ -5,6 +5,9 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Projects'
 import Social from './pages/Contacts'
+import theme from './theme'
+import '@fontsource/roboto/300.css'
+import '@fontsource/nunito/500.css'
 
 function App() { 
   const tabs = ['Skills', 'Projects', 'Resume', 'Contacts'];
@@ -33,7 +36,7 @@ function App() {
   };
 
   return (
-    <ChakraProvider>
+    <ChakraProvider theme={theme}>
       <header>
         {currentW > 900 && currentTab !== ' ' ?  <Link position='absolute' top='1vh' left={{base: '45vw', lg: '47vw'}} className='nav-title' onClick={() => setCurrentTab(' ')}>AC</Link> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />

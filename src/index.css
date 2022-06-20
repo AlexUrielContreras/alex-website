@@ -1,6 +1,10 @@
 body{
   height: 100vh;
-  
+ 
+}
+#root {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
 main {
   width: 80vw;
@@ -11,7 +15,6 @@ header {
   border-bottom: 2px black solid;
   width: 90vw;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
   letter-spacing: .7px;
 }
 .selected {
