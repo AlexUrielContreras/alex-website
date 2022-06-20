@@ -1,6 +1,15 @@
+import Project from '../componets/Project'
+import { Flex } from '@chakra-ui/react'
+
+
+
 function Projects() {
     return (
-        <div>Projects</div>
+        <Flex direction={{base:'column', lg: 'row'}} align='center'>
+        <Project /> 
+        <Project /> 
+        <Project /> 
+        </Flex>
     )
 };
 

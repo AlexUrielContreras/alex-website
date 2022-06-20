@@ -52,7 +52,8 @@ function Social() {
                 <AlertIcon />
                 <AlertTitle>{emailSent}</AlertTitle>
             </Alert> : null}
-            <form onSubmit={sendEmail} className='contact-form'>
+            <Box border='2px' p={5} m='auto' mt={10} w={{base: '80vw', lg: '60vw'}}>
+            <form onSubmit={sendEmail}>
                 <FormControl isRequired >
                     <FormLabel>Name</FormLabel>
                     <Input type='text' variant='filled' name='name' />
@@ -77,7 +78,8 @@ function Social() {
                     <Button type='submit' variant='outline' mt={5}>Send</Button>
                     : null}
             </form>
-            <Box textAlign='center'>
+            </Box>
+            <Box textAlign='center' mt={10}>
                 <Heading as='h2' fontSize='3xl'>Check out my Socials</Heading>
                 <Flex align={{ base: 'center', md: 'start' }} justifyContent='center'>
                     <Flex m={5} direction='row' fontSize='3xl'>
