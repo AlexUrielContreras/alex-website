@@ -2,9 +2,9 @@ import { Link, Flex} from '@chakra-ui/react';
 
 function Nav({tabs, setCurrentTab, currentTab}) {
     return (
-        <Flex justifyContent='flex-end' fontSize='xl' py={5} mr={10}> 
+        <Flex justifyContent={{base:'center', md:'flex-end'}} fontSize='xl' py={5} > 
             {tabs.map(tab => (
-                <Link mr={5} key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
+                <Link mr={{md: '10'}} key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
             ))}
         </Flex>
     )

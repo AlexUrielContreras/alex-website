@@ -1,21 +1,19 @@
 html,body{
   min-height: 100%;
+  box-sizing: border-box
 }
 #root {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   background-color: #ffe5d9;
-
 }
 main {
   max-width: 80vw;
   margin: auto;
-  padding: 20px 0;
 }
 header {
-  margin: 0 auto;
+  margin: auto;
   letter-spacing: .7px;
-  
 }
 .selected {
   transform: translate(0, 20px);
