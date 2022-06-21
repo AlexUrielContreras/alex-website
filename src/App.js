@@ -6,7 +6,7 @@ import Skills from './pages/Skills'
 import Project from './pages/Projects'
 import Social from './pages/Contacts'
 import theme from './theme'
-import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
 import '@fontsource/nunito/500.css'
 
 function App() { 
@@ -38,7 +38,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <header>
-        {currentW > 900 && currentTab !== ' ' ?  <Link position='absolute' top='1vh' left={{base: '45vw', lg: '47vw'}} className='nav-title' onClick={() => setCurrentTab(' ')}>AC</Link> : null}
+        {currentW > 900 && currentTab !== ' ' ?  <Link position='absolute' top='2vh' left='10vw' className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</Link> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>

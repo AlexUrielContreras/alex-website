@@ -1,8 +1,8 @@
-import { Box,  Heading } from '@chakra-ui/react';
+import { Box,  Flex, Heading } from '@chakra-ui/react';
 
 function Skills() {
     return (
-        <>
+        <Flex>
             <Box >
                 <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Languages</Heading>
                 <ul className='skill-list'>
@@ -53,7 +53,7 @@ function Skills() {
                     <p>1 :  Proficent</p>
                 </Box>
             </Box> */}
-        </>
+        </Flex>
     )
 };
 

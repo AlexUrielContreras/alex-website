@@ -1,21 +1,21 @@
-body{
-  height: 100vh;
- 
+html,body{
+  min-height: 100%;
 }
 #root {
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
+  background-color: #ffe5d9;
+
 }
 main {
-  width: 80vw;
+  max-width: 80vw;
   margin: auto;
   padding: 20px 0;
 }
 header {
-  border-bottom: 2px black solid;
-  width: 90vw;
   margin: 0 auto;
   letter-spacing: .7px;
+  
 }
 .selected {
   transform: translate(0, 20px);
@@ -33,11 +33,6 @@ header {
   font-size: 1.2rem
 }
 .nav-title {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
   font-weight: bolder;
-  text-align: center;
-  border: 2px solid grey;
-  border-radius: 50%;
-  width: 75px;
-
 }
