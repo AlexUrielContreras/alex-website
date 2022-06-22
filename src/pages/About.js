@@ -1,4 +1,5 @@
-import { Flex, Heading, Text, Box, Link,Image } from '@chakra-ui/react'
+import { Flex, Heading, Text, Box} from '@chakra-ui/react'
+import Socials from '../componets/Socials'
 
 function About() {
     return (
@@ -8,11 +9,7 @@ function About() {
                     <Heading as='h1' fontSize={{ base: '2.1rem', lg: '5xl' }}>Alex U. Contreras</Heading>
                     <Heading as='h2' fontSize={{ base: '1.41rem', lg: '3xl' }} mt={3}>Full Stack Developer</Heading>
                 </Box>
-                {window.innerWidth >= 770 ? <Flex fontSize={{ base: '1.34rem' }} direction={{ base: 'column', md: 'row' }}  alignItems='center' justifyContent='space-around' >  
-                        <Link mr={{md:'10'}} href='https://www.linkedin.com/in/alex-contreras-788b55225/'><Image src={require('../assets/icons/linkedin.ico')}/></Link>             
-                        <Link mr={{md:'10'}} href='https://github.com/AlexUrielContreras'><Image src={require('../assets/icons/github.ico')}/></Link>
-                        <Link mr={{md:'10'}} href='https://twitter.com/AUC829'><Image src={require('../assets/icons/twitter.ico')}/></Link>
-                </Flex> : null}
+                {window.innerWidth >= 770 ? <Socials /> : null}
             </Flex>
 
             <Flex >

@@ -1,7 +1,6 @@
 import {
     Flex,
     Box,
-    Link,
     Button,
     Input,
     FormLabel,
@@ -12,6 +11,7 @@ import {
     AlertTitle,
     Heading
 } from '@chakra-ui/react'
+import Socials from '../componets/Socials'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import validateEmail from '../utils/helpers'
@@ -82,15 +82,7 @@ function Social() {
             <Box textAlign='center' mt={10}>
                 <Heading as='h2' fontSize='3xl'>Check out my Socials</Heading>
                 <Flex align={{ base: 'center', md: 'start' }} justifyContent='center'>
-                    <Flex m={5} direction='row' fontSize='3xl'>
-                        <Link href='https://www.linkedin.com/in/alex-contreras-/'>Linkedin</Link>
-                    </Flex>
-                    <Flex m={5} direction='row' fontSize='3xl'>
-                        <Link >Github</Link>
-                    </Flex>
-                    <Flex m={5} direction='row' fontSize='3xl'>
-                        <Link >Twitter</Link>
-                    </Flex>
+                   <Socials />
                 </Flex>
             </Box>
 
