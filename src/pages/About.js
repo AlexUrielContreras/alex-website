@@ -3,7 +3,7 @@ import { Flex, Heading, Text, Box, Link,Image } from '@chakra-ui/react'
 function About() {
     return (
         <>
-            <Flex textAlign='center' justifyContent={{base: 'center', md:'space-between'}} mt={{ md: '17vh'}}>
+            <Flex textAlign='center' justifyContent={{base: 'center', md:'space-between'}} mt={{base: '10vh', md: '17vh'}}>
                 <Box m={{base:'auto', sm: '0'}}>
                     <Heading as='h1' fontSize={{ base: '2.1rem', lg: '5xl' }}>Alex U. Contreras</Heading>
                     <Heading as='h2' fontSize={{ base: '1.41rem', lg: '3xl' }} mt={3}>Full Stack Developer</Heading>
