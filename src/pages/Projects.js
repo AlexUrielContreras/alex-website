@@ -20,7 +20,7 @@ function Projects() {
     ];
 
     return (
-        <Flex direction={{base:'column', lg: 'row'}} align='center' flexWrap='wrap' justifyContent='center'>
+        <Flex direction={{base:'column', lg: 'row'}} align='center' flexWrap='wrap' justifyContent='center' >
             {projectInfo.map((info) => {
                 return <Project key={info.name} info={info} />
             })}

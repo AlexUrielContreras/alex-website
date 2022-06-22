@@ -34,11 +34,12 @@ function App() {
       return <About />
     }
   };
+  console.log(currentTab)
 
   return (
     <ChakraProvider theme={theme}>
       <header>
-        {currentW >= 768 && currentTab !== ' ' ?  <Link position='absolute' top='2.5vh' left='10vw' className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</Link> : null}
+        {currentW > 768 && currentTab !== ' ' ?  <Link position='absolute' top='2.5vh' left='10vw' className='nav-title' onClick={() => setCurrentTab(' ')}>Alex Contreras</Link> : null}
         <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
       </header>
       <main>
