@@ -3,7 +3,6 @@ import { Link, Flex , Button,  Drawer,
     Image,
     DrawerOverlay,
     DrawerContent,
-    DrawerCloseButton,
     useDisclosure} from '@chakra-ui/react';
 
 
@@ -17,8 +16,8 @@ function Nav({tabs, setCurrentTab, currentTab}) {
                 <Link mr={{md: '10'}} key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
             ))}
         </Flex> :
-        <>
-           <Button onClick={onOpen} bg='#ffe5d9' ><Image src={require('../assets/icons/menu.ico')}/></Button>
+        <Flex justifyContent='space-between'>
+           <Button pt={5} onClick={onOpen} bg='#ffe5d9' ><Image src={require('../assets/icons/menu.ico')}/></Button>
            <Drawer 
                 isOpen={isOpen} 
                 placement='top'
@@ -26,15 +25,19 @@ function Nav({tabs, setCurrentTab, currentTab}) {
             >
                 <DrawerOverlay />
                 <DrawerContent>
-                    <DrawerCloseButton />
+
                     <DrawerBody>
-                        {tabs.map(tab => (
-                           <Link key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
-                        ))}
+                        <Flex justifyContent='space-around'>
+                            {tabs.map(tab => (
+                            <Link key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'sm-nav'}`}>{tab}</Link>
+                            ))}
+                        </Flex>
                     </DrawerBody>
                 </DrawerContent>
              </Drawer>
-        </>
+             {currentTab !== '' ? <Image pt={4} mr={2} src={require('../assets/icons/home.ico')} onClick={() => setCurrentTab('')}/> : null}
+             
+        </Flex>
         }
          
 

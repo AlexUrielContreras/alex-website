@@ -2,7 +2,7 @@ import { Box,  Flex, Heading } from '@chakra-ui/react';
 
 function Skills() {
     return (
-        <Flex>
+        <Flex direction={{base: 'column' , lg: 'row'}}>
             <Box >
                 <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Languages</Heading>
                 <ul className='skill-list'>
