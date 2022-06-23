@@ -1,5 +1,5 @@
 import {
-    Flex,
+
     Box,
     Button,
     Input,
@@ -21,16 +21,15 @@ function Social() {
     const [errorMessage, setErrorMessage] = useState('');
     const [emailSent, setEmailSent] = useState('');
 
+/* Checks a email against a regex and returns true or false */
     function checkEmail({ target }) {
         const guestEmail = target.value
         const isValid = validateEmail(guestEmail)
-        console.log(isValid)
         if (!isValid) {
             setErrorMessage('Please enter a valid email')
         } else {
             setErrorMessage('')
         }
-
     }
 
     function sendEmail(e) {
@@ -48,11 +47,15 @@ function Social() {
     }
     return (
         <>
-            {emailSent ? <Alert status='success'>
+        {/* Alert for when a successful email is sent */}
+            {emailSent ? <Alert status='success' w='300px' position='absolute' right='20%' borderRadius='50'>
                 <AlertIcon />
                 <AlertTitle>{emailSent}</AlertTitle>
-            </Alert> : null}
-            <Box border='2px' p={5} m='auto' mt={10} w={{base: '80vw', lg: '60vw'}}>
+                </Alert> : null
+            }
+            <Heading mt={{base: '8vh'}} ml={{md: '9vw'}} as='h1'> Email Me </Heading>
+
+            <Box border= '4px' borderRadius={35} p={7} m='auto' mt={{base: '5vh'}} w={{base: '80vw', lg: '60vw'}}>
             <form onSubmit={sendEmail}>
                 <FormControl isRequired >
                     <FormLabel>Name</FormLabel>
@@ -79,11 +82,8 @@ function Social() {
                     : null}
             </form>
             </Box>
-            <Box textAlign='center' mt={10}>
-                <Heading as='h2' fontSize='3xl'>Check out my Socials</Heading>
-                <Flex align={{ base: 'center', md: 'start' }} justifyContent='center'>
-                   <Socials />
-                </Flex>
+            <Box mt={{base: '12vh'}}>
+                <Socials />
             </Box>
 
         </>

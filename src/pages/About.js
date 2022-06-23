@@ -9,7 +9,7 @@ function About() {
                     <Heading as='h1' fontSize={{ base: '2.1rem', lg: '5xl' }}>Alex U. Contreras</Heading>
                     <Heading as='h2' fontSize={{ base: '1.41rem', lg: '3xl' }} mt={3}>Full Stack Developer</Heading>
                 </Box>
-                {window.innerWidth >= 770 ? <Socials /> : null}
+                {window.innerWidth >= 770 ? <Socials/> : null}
             </Flex>
 
             <Flex >
