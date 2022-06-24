@@ -1,6 +1,7 @@
 import { Box,Image,Heading, Text } from '@chakra-ui/react'
 
 function Project({info}) {
+    console.log(info)
     
     const {name , description} = info
     return (

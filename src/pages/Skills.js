@@ -1,59 +1,59 @@
-import { Box,  Flex, Heading } from '@chakra-ui/react';
-
+import { Flex, Heading, Box } from '@chakra-ui/react';
 function Skills() {
     return (
-        <Flex direction={{base: 'column' , lg: 'row'}}>
-            <Box >
-                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Languages</Heading>
-                <ul className='skill-list'>
-                    <li className='skill-item'>HTML</li>
-                    <li className='skill-item'>CSS</li>
-                    <li className='skill-item'>SaSS</li>
-                    <li className='skill-item'>JAVASCRIPT</li>
-                    <li className='skill-item'>SQL</li>
+        <Flex direction={{base: 'column', lg: 'row'}} justifyContent={{lg:'space-around'}} fontSize={{base: '2xl'}} textAlign='center' pb='10' wrap='wrap'>
+            <Box w={{lg: '35vw'}} mt={{base: '16'}} >
+                <Heading border='2px' borderRadius='25' mb='5' p='1'>LANGUAGES</Heading>
+                <ul>
+                    <Flex direction='column'>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>SaSS</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>NoSQL</li>
+                        <li>Handlebars</li>
+                    </Flex>
                 </ul>
             </Box>
-            <Box >
-                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Javascript Tools</Heading>
-                <ul className='skill-list'>
-                    <li className='skill-item'>React</li>
-                    <li className='skill-item'>jQuery</li>
-                    <li className='skill-item'>Node</li>
-                    <li className='skill-item'>Express</li>
+            <Box w={{lg: '35vw'}} mt={{base: '16'}} >
+                <Heading border='2px' borderRadius='25' mb='5'  p='1'>FRAMEWORKS</Heading>
+                <ul>
+                    <Flex direction='column'>
+                        <li>Bootstrap</li>
+                        <li>jQuery</li>
+                        <li>Express.js</li>
+                        <li>Node.js</li>
+                        <li>React.js</li>
+                    </Flex>
                 </ul>
             </Box>
-            <Box >
-                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Frameworks</Heading>
-                <ul className='skill-list'>
-                    <li className='skill-item'>Bootstrap</li>
-                    <li className='skill-item'>Materalize</li>
+            <Box  w={{lg: '35vw'}}mt={{base: '20'}}  >
+                <Heading border='2px' borderRadius='25' mb='5'  p='1'>DATABASES/DBMS</Heading>
+                <ul>
+                    <Flex direction='column'>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Sequelize</li>
+                        <li>Mongoose</li>
+                 
+                    </Flex>
                 </ul>
             </Box>
-            <Box >
-                <Heading as='h2'  mt={10} fontSize={{base: '2xl' , md: '4xl'}}>DB/ORM/ODM</Heading>
-                <ul className='skill-list'>
-                    <li className='skill-item'>MYSQL</li>
-                    <li className='skill-item'>MongoDB</li>
-                    <li className='skill-item'>Sequelize</li>
-                    <li className='skill-item'>Mongoose</li>
+            <Box w={{lg: '35vw'}}mt={{base: '20'}}  >
+                <Heading border='2px' borderRadius='25' mb='5'  p='1'>TOOLS</Heading>
+                <ul>
+                    <Flex direction='column'>
+                        <li>Jest</li>
+                        <li>Git</li>
+                        <li>npm</li>
+                        <li>PWA</li>
+                    </Flex>
                 </ul>
             </Box>
-            <Box >
-                <Heading as='h2' mt={10} fontSize={{base: '2xl' , md: '4xl'}}>Other Tools</Heading>
-                <ul className='skill-list'>
-                    <li className='skill-item'>Jest</li>
-                    <li className='skill-item'>HandleBars</li>
-                    <li className='skill-item'>PWA</li>
-                </ul>
-            </Box>
-           {/* <Box>
-                <Heading as='h3' fontSize='3xl'>Key</Heading>
-                <Box>
-                    <p>1 :  Intermediate</p>
-                    <p>1 :  Proficent</p>
-                </Box>
-            </Box> */}
         </Flex>
+
     )
 };
 
