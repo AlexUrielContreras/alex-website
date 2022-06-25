@@ -7,18 +7,18 @@ function Projects() {
     const projectInfo = [
         {
             name: 'GeekTutor',
-            description: 'GeekTutor is an app where users can view and schedule sessions with tutors. My team consisted of 4 members and we used Agile development methodology. I worked on the front-end to implement queries to display their data',
+            description: 'GeekTutor is an app where users can view and schedule sessions with tutors. My team consisted of 4 members and we used Agile development methodology. I worked on the front-end to implement queries to display their data and the login/logout functionality',
             tech: ['MERN', 'Javascript']
         },
         {
             name: 'Bootleg',
-            description: '',
-            tech: []
+            description: 'Bootleg is an instagram clone that allow user to upload picture and also comment on other user post.My team consisted of 4 members and we used Agile development methodology. I worked on the front-end to implement handlebars, login/logout, and built the dashboard',
+            tech: ['Handlebars', 'CSS3','Javascript', 'Express', 'MySQl', 'Sequelize']
         },
         {
             name: 'Budget Tracker',
-            description: '',
-            tech: []
+            description: 'Finace app where you can track your spending. It uses a service worker to be able to function offline. it is also a pwa so u can download it onto your desktop or mobile device.',
+            tech: ['Javascript', 'Express', 'Mongoose']
         }
     ];
 
