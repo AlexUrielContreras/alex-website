@@ -7,20 +7,28 @@ function Projects() {
     const projectInfo = [
         {
             name: 'GeekTutor',
-            description: 'venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus'
+            description: 'GeekTutor is an app where users can view and schedule sessions with tutors. My team consisted of 4 members and we used Agile development methodology. I worked on the front-end',
+            tech: ['MERN', 'Javascript']
         },
         {
             name: 'Bootleg',
-            description: 'venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus'
+            description: '',
+            tech: []
+        },
+        {
+            name: 'Soccer',
+            description: '', 
+            tech: []
         },
         {
             name: 'Budget Tracker',
-            description: 'venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus'
+            description: '',
+            tech: []
         }
     ];
 
     return (
-        <Flex direction={{base:'column', lg: 'row'}} align='center' flexWrap='wrap' justifyContent='center' >
+        <Flex direction={{base:'column', lg: 'row'}} flexWrap='wrap' align={{base:'center', md:'inherit'}} >
             {projectInfo.map((info) => {
                 return <Project key={info.name} info={info} />
             })}

@@ -34,7 +34,6 @@ function App() {
       return <About />
     }
   };
-  console.log(currentTab)
 
   return (
     <ChakraProvider theme={theme}>
