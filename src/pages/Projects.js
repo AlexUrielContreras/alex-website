@@ -8,17 +8,20 @@ function Projects() {
         {
             name: 'GeekTutor',
             description: 'GeekTutor is an app where users can view and schedule sessions with tutors. My team consisted of 4 members and we used Agile development methodology. I worked on the front-end to implement queries to display their data and the login/logout functionality',
-            tech: ['MERN', 'Javascript']
+            tech: ['MERN', 'Javascript'],
+            link: 'https://geektutor-123.herokuapp.com/'
         },
         {
             name: 'Bootleg',
             description: 'Bootleg is an instagram clone that allow user to upload picture and also comment on other user post.My team consisted of 4 members and we used Agile development methodology. I worked on the front-end to implement handlebars, login/logout, and built the dashboard',
-            tech: ['Handlebars', 'CSS3','Javascript', 'Express', 'MySQl', 'Sequelize']
+            tech: ['Handlebars', 'CSS3','Javascript', 'Express', 'MySQl', 'Sequelize'],
+            link: 'https://group-project-bootleg.herokuapp.com/'
         },
         {
             name: 'Budget Tracker',
             description: 'Finace app where you can track your spending. It uses a service worker to be able to function offline. it is also a pwa so u can download it onto your desktop or mobile device.',
-            tech: ['Javascript', 'Express', 'Mongoose']
+            tech: ['Javascript', 'Express', 'Mongoose'],
+            link: 'https://agile-forest-86640.herokuapp.com/'
         }
     ];
 
