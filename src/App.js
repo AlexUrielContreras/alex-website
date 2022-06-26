@@ -36,7 +36,7 @@ function App() {
     case 'Contacts' :
       return <Social/>
     case 'Resume' :
-      return <Resume />
+      return <Resume currentW={currentW}/>
     default :
       return <About currentW={currentW}/>
     }
