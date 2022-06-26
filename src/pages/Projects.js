@@ -1,8 +1,6 @@
 import Project from '../componets/Project'
 import { Flex } from '@chakra-ui/react'
 
-
-
 function Projects() {
     const projectInfo = [
         {
@@ -19,7 +17,7 @@ function Projects() {
         },
         {
             name: 'Budget Tracker',
-            description: 'Finace app where you can track your spending. It uses a service worker to be able to function offline. it is also a pwa so u can download it onto your desktop or mobile device.',
+            description: 'Finace app where you can track your spending. It uses a service worker to be able to function offline. It\'s also a Progressive Web Application so u can download it onto your desktop or mobile device.',
             tech: ['Javascript', 'Express', 'Mongoose'],
             link: 'https://agile-forest-86640.herokuapp.com/'
         }

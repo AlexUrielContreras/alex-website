@@ -1,7 +1,7 @@
 import { Flex, Heading, Text, Box} from '@chakra-ui/react'
 import Socials from '../componets/Socials'
 
-function About() {
+function About({currentW}) {
     return (
         <>
             <Flex textAlign='center' justifyContent={{base: 'center', md:'space-between'}} mt={{base: '10vh', md: '17vh'}}>
@@ -9,7 +9,7 @@ function About() {
                     <Heading as='h1' fontSize={{ base: '2.1rem', lg: '5xl' }}>Alex U. Contreras</Heading>
                     <Heading as='h2' fontSize={{ base: '1.41rem', lg: '3xl' }} mt={3}>Full Stack Developer</Heading>
                 </Box>
-                {window.innerWidth >= 770 ? <Socials/> : null}
+                {currentW >= 770 ? <Socials/> : null}
             </Flex>
 
             <Flex >

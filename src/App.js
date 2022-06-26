@@ -1,10 +1,15 @@
 import { useState } from 'react'
 import { ChakraProvider, Link} from '@chakra-ui/react';
+
+/* Page Imports */
 import Nav from './pages/Nav'
 import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Projects'
 import Social from './pages/Contacts'
+import Resume from './pages/Resume'
+
+/* Style Imports */
 import theme from './theme'
 import '@fontsource/roboto/400.css'
 import '@fontsource/nunito/500.css'
@@ -25,13 +30,15 @@ function App() {
   function renderTab(name) { 
     switch (name) {
     case 'Skills': 
-      return <Skills />
+      return <Skills/>
     case 'Projects': 
       return <Project />
     case 'Contacts' :
       return <Social/>
+    case 'Resume' :
+      return <Resume />
     default :
-      return <About />
+      return <About currentW={currentW}/>
     }
   };
 
