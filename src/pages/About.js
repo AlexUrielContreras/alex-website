@@ -13,7 +13,7 @@ function About({currentW}) {
             </Flex>
 
             <Flex >
-                <Text as='p' my={10} textAlign='justify' fontSize='lg'>
+                <Text as='p' my={10} fontSize='lg'>
                     Hello! My name is Alex Contreras and I'm a Full Stack Developer. I completed The University of Kansas Full Stack Devloper Course were
                     we learned a new language or tool every week and impleament into a project. We also grouped up to plan, implement, and present 3 projects.
                     Projects ranged from a simple website that grabs data from an API, to creating full stack applications using the MERN tech stack.
@@ -22,7 +22,7 @@ function About({currentW}) {
                     each other.
                 </Text>
             </Flex>
-            <Box textAlign='center' fontSize='xl' mt='20'>
+            <Box textAlign='center' fontSize='xl' mt={{lg: '20'}}>
                 <Link href={require('../assets/files/alex_resume.pdf')} download>Click Here to Download my Resume</Link>
             </Box>
         </>
