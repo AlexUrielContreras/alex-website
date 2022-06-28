@@ -7,7 +7,6 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Project from './pages/Projects'
 import Social from './pages/Contacts'
-import Resume from './pages/Resume'
 
 /* Style Imports */
 import theme from './theme'
@@ -15,7 +14,7 @@ import '@fontsource/roboto/400.css'
 import '@fontsource/nunito/500.css'
 
 function App() { 
-  const tabs = ['Skills', 'Projects', 'Resume', 'Contacts'];
+  const tabs = ['Skills', 'Projects', 'Contacts'];
 
   const [currentTab, setCurrentTab ] = useState('');
   const [currentW , setCurrentW] = useState(window.outerWidth);
@@ -35,8 +34,6 @@ function App() {
       return <Project />
     case 'Contacts' :
       return <Social/>
-    case 'Resume' :
-      return <Resume currentW={currentW}/>
     default :
       return <About currentW={currentW}/>
     }

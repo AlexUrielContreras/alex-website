@@ -10,7 +10,7 @@ function Skills(props) {
     return (
         <Flex direction={{base: 'column', lg: 'row'}} justifyContent={{lg:'space-around'}} fontSize={{base: '2xl'}} mt={{lg: '5vh'}} textAlign='center' pb='10' wrap='wrap' letterSpacing='2px'>
             <SkillBox title={'LANGUAGES'} test={test[0]} />  
-            <SkillBox title={'FRAMWORK'} test={test[1]} />  
+            <SkillBox title={'FRAMEWORK'} test={test[1]} />  
             <SkillBox title={'DATABASES/DBMS'} test={test[2]} />
             <SkillBox title={'TOOLS'} test={test[3]} />
         </Flex>
