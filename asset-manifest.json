@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alex-website/static/css/main.8f5ea9aa.css",
-    "main.js": "/alex-website/static/js/main.7d2097b4.js",
+    "main.js": "/alex-website/static/js/main.924a0c58.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
     "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
     "static/media/Resume.png": "/alex-website/static/media/Resume.567e7804da0acf34cca6.png",
@@ -29,11 +29,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
     "main.8f5ea9aa.css.map": "/alex-website/static/css/main.8f5ea9aa.css.map",
-    "main.7d2097b4.js.map": "/alex-website/static/js/main.7d2097b4.js.map",
+    "main.924a0c58.js.map": "/alex-website/static/js/main.924a0c58.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f5ea9aa.css",
-    "static/js/main.7d2097b4.js"
+    "static/js/main.924a0c58.js"
   ]
 }
