@@ -21,7 +21,7 @@ function About({ currentW }) {
                     a product up and running. I am a hard worker and work well in a team environment. I am confident in my skills in a real-world setting.
                 </Text>
             </Flex>
-            <Box textAlign='center' fontSize='xl' mt={{ lg: '20' }}>
+            <Box textAlign='center' fontSize='xl' py={{base: '10', lg: '20' }}>
                 <Link href={require('../assets/files/alex_resume.pdf')} download>Click Here to Download my Resume</Link>
             </Box>
         </>

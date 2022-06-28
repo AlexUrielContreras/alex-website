@@ -81,7 +81,7 @@ function Social() {
                     : null}
             </form>
             </Box>
-            <Box mt={{base: '12vh'}}>
+            <Box py={{base: '10vh'}}>
                 <Socials />
             </Box>
 
