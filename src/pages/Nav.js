@@ -35,7 +35,7 @@ function Nav({tabs, setCurrentTab, currentTab}) {
                     </DrawerBody>
                 </DrawerContent>
              </Drawer>
-             {currentTab !== '' ? <Image pt={4} mr={2} src={require('../assets/icons/home.ico')} onClick={() => setCurrentTab('')}/> : null}
+             {currentTab !== '' ? <Image pt={4} mr={2} src={require('../assets/icons/home.ico')} onClick={() => setCurrentTab('')} alt=''/> : null}
              
         </Flex>
         }

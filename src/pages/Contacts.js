@@ -54,7 +54,7 @@ function Social() {
             }
             <Heading mt={{base: '8vh'}} ml={{md: '9vw'}} as='h1'> Email Me </Heading>
 
-            <Box border= '4px' borderRadius={35} p={7} m='auto' mt={{base: '5vh'}} w={{base: '80vw', lg: '60vw'}}>
+            <Box border= '4px' borderRadius={35} p={6} m='auto' mt={{base: '4vh'}} w={{base: '80vw', lg: '60vw'}}>
             <form onSubmit={sendEmail}>
                 <FormControl isRequired >
                     <FormLabel>Name</FormLabel>
@@ -81,7 +81,7 @@ function Social() {
                     : null}
             </form>
             </Box>
-            <Box py={{base: '10vh'}}>
+            <Box py={{base: '9vh'}}>
                 <Socials />
             </Box>
 
