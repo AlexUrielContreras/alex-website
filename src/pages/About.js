@@ -1,10 +1,10 @@
-import { Flex, Heading, Text, Box, Link } from '@chakra-ui/react'
+import { Flex, Heading, Text, Box} from '@chakra-ui/react'
 import Socials from '../componets/Socials'
 
 function About({ currentW }) {
     return (
         <>
-            <Flex textAlign='center' justifyContent={{ base: 'center', md: 'space-between' }} mt={{ base: '10vh', md: '17vh' }}>
+            <Flex textAlign='center' justifyContent={{ base: 'center', md: 'space-between' }} mt={{ base: '7vh', md: '17vh' }}>
                 <Box m={{ base: 'auto', sm: '0' }}>
                     <Heading as='h1' fontSize={{ base: '2.1rem', lg: '5xl' }}>Alex U. Contreras</Heading>
                     <Heading as='h2' fontSize={{ base: '1.41rem', lg: '3xl' }} mt={3}>Full Stack Developer</Heading>
@@ -21,9 +21,9 @@ function About({ currentW }) {
                     a product up and running. I am a hard worker and work well in a team environment. I am confident in my skills in a real-world setting.
                 </Text>
             </Flex>
-            <Box textAlign='center' fontSize='xl' py={{base: '10', lg: '20' }}>
+            {/*<Box textAlign='center' fontSize='xl' py={{base: '10', lg: '20' }}>
                 <Link href={require('../assets/files/alex_resume.pdf')} download>Click Here to Download my Resume</Link>
-            </Box>
+            </Box> */}
         </>
 
     )
