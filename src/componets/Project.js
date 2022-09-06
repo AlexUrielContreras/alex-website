@@ -1,9 +1,8 @@
 import { Box,Image,Heading, Text, Tag, Flex, Link } from '@chakra-ui/react'
 
 function Project({info}) {
-    console.log(info)
-    
     const {name , description, tech, link} = info
+    
     return (
         <Box border='2px' borderRadius='25' w={{base:'80vw', md: '60vw', lg:'20vw'}}  m={4} _hover={{boxShadow:'dark-lg'}}>
             <Image borderTopRadius='23' src={require(`../assets/project-img/${name}.png`)} />

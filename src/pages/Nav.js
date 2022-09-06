@@ -1,17 +1,22 @@
-import { Link, Flex , Button,  Drawer,
+import { 
+    Link, 
+    Flex , 
+    Button,  
+    Drawer,
     DrawerBody,
     Image,
     DrawerOverlay,
     DrawerContent,
-    useDisclosure} from '@chakra-ui/react';
+    useDisclosure } from '@chakra-ui/react';
 
 
-function Nav({tabs, setCurrentTab, currentTab}) {
-    const w = window.innerWidth
+function Nav({currentW, setCurrentTab, currentTab}) {
+    const tabs = ['Skills', 'Projects', 'Contacts'];
+
     const {isOpen, onOpen, onClose} = useDisclosure()
     return (
         <>
-        {w > 767 ? <Flex justifyContent={{base:'center', md:'flex-end'}} fontSize='xl' py={5} > 
+        {currentW > 767 ? <Flex justifyContent={{base:'center', md:'flex-end'}} fontSize='xl' py={5} > 
             {tabs.map(tab => (
                 <Link mr={{md: '10'}} key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
             ))}

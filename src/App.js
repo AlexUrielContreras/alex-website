@@ -4,9 +4,9 @@ import { ChakraProvider, Link} from '@chakra-ui/react';
 /* Page Imports */
 import Nav from './pages/Nav'
 import About from './pages/About'
-import Skills from './pages/Skills'
-import Project from './pages/Projects'
-import Social from './pages/Contacts'
+import Skills from './pages/Skill'
+import Project from './pages/Project'
+import Social from './pages/Contact'
 
 /* Style Imports */
 import theme from './theme'
@@ -14,13 +14,12 @@ import '@fontsource/roboto/400.css'
 import '@fontsource/nunito/500.css'
 
 function App() { 
-  const tabs = ['Skills', 'Projects', 'Contacts'];
 
   const [currentTab, setCurrentTab ] = useState('');
-  const [currentW , setCurrentW] = useState(window.outerWidth);
+  const [currentW , setCurrentW] = useState(window.innerWidth);
 
   function resize() {
-    setCurrentW(window.outerWidth)
+    setCurrentW(window.innerWidth)
   }
 
   // Calls the resize function when ever the window width Changes
@@ -43,7 +42,7 @@ function App() {
     <ChakraProvider theme={theme}>
       <header>
         {currentW > 768 && currentTab !== '' ?  <Link position='absolute' top='2.5vh' left='3vw' className='nav-title' onClick={() => setCurrentTab('')}>Alex Contreras</Link> : null}
-        <Nav tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
+        <Nav setCurrentTab={setCurrentTab} currentTab={currentTab} currentW={currentW}/>
       </header>
       <main>
         {renderTab(currentTab.tab)}

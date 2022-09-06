@@ -5,8 +5,8 @@ function SkillBox({title, tech}) {
                 <Heading border='2px' borderRadius='25' mb='5' p='1'>{title}</Heading>
                 <ul>
                     <Flex direction='column'>
-                        {tech.map(list => (
-                            <Box key={list}>{list}</Box>
+                        {tech.map(techList => (
+                            <Box key={techList}>{techList}</Box>
                         ))}
                     </Flex>
                 </ul>
