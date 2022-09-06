@@ -10,7 +10,7 @@ function Skills() {
         <Flex direction={{base: 'column', lg: 'row'}} justifyContent={{lg:'space-around'}} fontSize={{base: '2xl'}} mt={{lg: '5vh'}} align={{base: 'center', md: 'baseline'}} textAlign='center' pb='10' wrap='wrap' letterSpacing='2px'>
             <SkillBox title={'LANGUAGES'} tech={tech[0]} />  
             <SkillBox title={'FRAMEWORK'} tech={tech[1]} />  
-            <SkillBox title={'DATABASES/DBMS'} tech={tech[2]} />
+            <SkillBox title={'DBMS/ORM/ODM'} tech={tech[2]} />
             <SkillBox title={'TOOLS'} tech={tech[3]} />
         </Flex>
 

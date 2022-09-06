@@ -22,19 +22,19 @@ function Nav({currentW, setCurrentTab, currentTab}) {
             ))}
         </Flex> :
         <Flex justifyContent='space-between'>
-           <Button pt={5} onClick={onOpen} bg='#ffe5d9' ><Image src={require('../assets/icons/menu.ico')}/></Button>
+           <Box p={3} onClick={onOpen} bg='#ffe5d9' ><Image src={require('../assets/icons/menu.ico')}/></Box>
            <Drawer 
                 isOpen={isOpen} 
                 placement='top'
-                onClose={onClose}
-            >
+                onClose={onClose}      
+                >
                 <DrawerOverlay />
+                
                 <DrawerContent>
-
                     <DrawerBody>
                         <Flex justifyContent='space-around'>
                             {tabs.map(tab => (
-                            <Link key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'sm-nav'}`}>{tab}</Link>
+                            <Link py={3} key={tab} onClick={() => setCurrentTab({tab})} efonytSize='xl' className={`${currentTab.tab === tab && 'sm-nav'}`}>{tab}</Link>
                             ))}
                         </Flex>
                     </DrawerBody>
