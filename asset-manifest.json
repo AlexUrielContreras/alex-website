@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/alex-website/static/css/main.8f5ea9aa.css",
-    "main.js": "/alex-website/static/js/main.d954539c.js",
+    "main.css": "/alex-website/static/css/main.235501be.css",
+    "main.js": "/alex-website/static/js/main.1d9e7747.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
     "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
-    "static/media/Resume.png": "/alex-website/static/media/Resume.567e7804da0acf34cca6.png",
     "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0f9230b8f35a390e780.png",
+    "static/media/noSQL Backend.png": "/alex-website/static/media/noSQL Backend.21de194a6312060d1b34.png",
     "static/media/Budget Tracker.png": "/alex-website/static/media/Budget Tracker.e8b4b1c722d8f1958e7c.png",
     "static/media/roboto-all-400-normal.woff": "/alex-website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/nunito-all-500-normal.woff": "/alex-website/static/media/nunito-all-500-normal.9447b2110a55a6722369.woff",
+    "static/media/One Tech Blog.png": "/alex-website/static/media/One Tech Blog.117589c59c28d96bcc48.png",
     "static/media/alex_resume.pdf": "/alex-website/static/media/alex_resume.9599981ac0b19e816eba.pdf",
+    "static/media/Password Generator.png": "/alex-website/static/media/Password Generator.b6c54b5bc81464aaad81.png",
     "static/media/roboto-latin-400-normal.woff2": "/alex-website/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/alex-website/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
     "static/media/nunito-latin-500-normal.woff2": "/alex-website/static/media/nunito-latin-500-normal.17dd5e8c51a178e95bef.woff2",
@@ -28,12 +30,12 @@
     "static/media/menu.ico": "/alex-website/static/media/menu.bd7c21903bf54f3b630b.ico",
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
-    "main.8f5ea9aa.css.map": "/alex-website/static/css/main.8f5ea9aa.css.map",
-    "main.d954539c.js.map": "/alex-website/static/js/main.d954539c.js.map",
+    "main.235501be.css.map": "/alex-website/static/css/main.235501be.css.map",
+    "main.1d9e7747.js.map": "/alex-website/static/js/main.1d9e7747.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f5ea9aa.css",
-    "static/js/main.d954539c.js"
+    "static/css/main.235501be.css",
+    "static/js/main.1d9e7747.js"
   ]
 }
