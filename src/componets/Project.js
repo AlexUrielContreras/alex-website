@@ -4,17 +4,16 @@ function Project({info}) {
     const {name , description, tech, link} = info
     
     return (
-        <Box border='2px' borderRadius='25' w={{base:'80vw', md: '60vw', lg:'20vw'}}  m={4} _hover={{boxShadow:'dark-lg'}}>
+        <Box border='2px' borderRadius='25' w={{base:'70vw', md: '35vw', lg:'20vw'}}  h={{base: 'inherit'}} m={4} _hover={{boxShadow:'dark-lg'}}>
             <Image borderTopRadius='23' src={require(`../assets/project-img/${name}.png`)} />
             <Box p={3}>
                 <Link href={`${link}`}>
                     <Heading as='h3' fontSize='3xl'>{name}</Heading>
                 </Link>
-                
-                <Text as='p' fontSize={{base:'md'}} my='2' >{description}</Text>
+                <Text as='p' fontSize={{base:'md'}} my='1'>{description}</Text>
                 <Flex wrap='wrap'>
                     {tech.map((lang) => (
-                        <Tag p='2' m='1' key={lang}>{lang}</Tag>
+                        <Tag p='2' m='1' border='1px' borderColor='grey' key={lang}>{lang}</Tag>
                     ))}
                 </Flex>
             </Box>
