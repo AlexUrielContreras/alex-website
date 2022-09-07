@@ -31,7 +31,7 @@ function Projects() {
     ];
 
     return (
-        <Flex direction={'row'} flexWrap='wrap' align={{base:'center', md:'inherit'}} justifyContent={{base: 'center', lg: 'start' }} alignContent={{base: 'center'}} py={{base: '10'}}>
+        <Flex direction={'row'} flexWrap='wrap' align={{base:'center', md:'inherit'}} justifyContent={{base: 'center', md: 'start' }}  pt={{base: '10'}}>
             {projectInfo.map((info) => {
                 return <Project key={info.name} info={info} />
             })}

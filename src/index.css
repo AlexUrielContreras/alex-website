@@ -1,6 +1,8 @@
-html,body{
-  min-height: 100%;
+* {
   box-sizing: border-box
+}
+html,body{
+  min-height: 100%
 }
 #root {
   min-height: 100vh;
@@ -22,9 +24,6 @@ header {
 .selected {
   transform: translate(0, 20px);
   font-weight: bolder;
-}
-.sm-nav {
-  font-weight: bolder
 }
 .skill-list {
   display: flex;
