@@ -5,7 +5,7 @@ function Projects() {
     const projectInfo = [
         {
             name: 'GeekTutor',
-            description: 'GeekTutor is an app where users can view and schedule sessions with tutors. My team consisted of 4 members and we used the Agile development methodology. I worked on the front-end to implement queries to display their data and the login/logout functionality.',
+            description: 'GeekTutor is an app where users can view and schedule sessions with tutors. Worked in a team of 4 following the agile development methodology. I worked on the front-end to implement queries to display their data and the login/logout functionality.',
             tech: ['MERN', 'Javascript', 'Apollo', 'Email.js'],
             link: 'https://geektutor-123.herokuapp.com/'
         },
@@ -29,13 +29,13 @@ function Projects() {
         },
         {
             name: 'noSQL Backend',
-            description: 'A social media application\'s backend. Designed REST apis to perform CRUD operations on the noSQL database',
+            description: 'A social media application\'s backend. Designed REST apis to perform CRUD operations on the noSQL database.',
             tech: ['Javascript', 'Express','MongoDB', 'Mongooes'],
             link: 'https://drive.google.com/file/d/143AhdeKcGKyDBXIridyw4-u2jVf4trBb/view'
         },
         {
             name: 'Password Generator',
-            description: 'Web application that outputs a password base on the users answers',
+            description: 'Web application that outputs a password base on the users answers.',
             tech: ['HTML5', 'CSS3', 'Javascript'],
             link: 'https://alexurielcontreras.github.io/Password-Generator/'
         }
