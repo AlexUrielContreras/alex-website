@@ -13,7 +13,7 @@ function Projects() {
             name: 'Bootleg',
             description: 'Bootleg is a web application that allows users to upload a picture and also comment on another user\'s post. Worked in a team of 4 following the agile development methodology. I implement handlebars, login/logout logic, and built the dashboard.',
             tech: ['Handlebars', 'CSS3','Javascript', 'Express', 'Sequelize'],
-            link: 'https://group-project-bootleg.herokuapp.com/'
+            link: 'https://bootleg-clone.herokuapp.com/'
         },
         {
             name: 'One Tech Blog',

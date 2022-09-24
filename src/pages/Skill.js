@@ -1,7 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import SkillBox from '../componets/SkillBox'
 function Skills() {
-    const tech = [['HTML5', 'CSS3','SaSS','Javascript', 'SQL', 'NoSQL', 'Handlebars'], /* Languages  */
+    const tech = [['HTML5', 'CSS3','SaSS','Javascript', 'Handlebars'], /* Languages  */
                  ['Bootstrap', 'jQuery', 'Node.js', 'Express.js', 'React.js'], /* Frameworks */
                  ['MySQL', 'MongoDB','Sequelize', 'Mongoose'], /*   Databases*/
                  ['Jest', 'Git', 'npm', 'PWA'] /*  Tools  */

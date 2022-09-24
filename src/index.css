@@ -1,41 +1,50 @@
 * {
   box-sizing: border-box
 }
+
 html,body{
   min-height: 100%
 }
+
 #root {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   background-color: #ffe5d9;
 }
+
 li {
   list-style: none;
   margin: 2px 0 
 }
+
 main {
-  max-width: 80vw;
+  max-width: 85vw;
   margin: auto;
 }
+
 header {
   margin: auto;
   letter-spacing: .7px;
 }
+
 .selected {
   transform: translate(0, 20px);
   font-weight: bolder;
 }
+
 .skill-list {
   display: flex;
   flex-direction: column;
   align-items: center
 }
+
 .skill-item {
   list-style: none;
   margin-top: .8rem;
   letter-spacing: 1px;
   font-size: 1.2rem
 }
+
 .nav-title {
   font-size: 1.9rem;
   font-weight: bolder;
