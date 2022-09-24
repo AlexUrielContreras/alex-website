@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/alex-website/static/css/main.235501be.css",
-    "main.js": "/alex-website/static/js/main.1d9e7747.js",
+    "main.css": "/alex-website/static/css/main.a7aab855.css",
+    "main.js": "/alex-website/static/js/main.72a367c6.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
     "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
-    "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0f9230b8f35a390e780.png",
+    "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0889ad74d9ff241f527.png",
     "static/media/noSQL Backend.png": "/alex-website/static/media/noSQL Backend.21de194a6312060d1b34.png",
     "static/media/Budget Tracker.png": "/alex-website/static/media/Budget Tracker.e8b4b1c722d8f1958e7c.png",
     "static/media/roboto-all-400-normal.woff": "/alex-website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -30,12 +30,12 @@
     "static/media/menu.ico": "/alex-website/static/media/menu.bd7c21903bf54f3b630b.ico",
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
-    "main.235501be.css.map": "/alex-website/static/css/main.235501be.css.map",
-    "main.1d9e7747.js.map": "/alex-website/static/js/main.1d9e7747.js.map",
+    "main.a7aab855.css.map": "/alex-website/static/css/main.a7aab855.css.map",
+    "main.72a367c6.js.map": "/alex-website/static/js/main.72a367c6.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.235501be.css",
-    "static/js/main.1d9e7747.js"
+    "static/css/main.a7aab855.css",
+    "static/js/main.72a367c6.js"
   ]
 }
