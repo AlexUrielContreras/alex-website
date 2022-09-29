@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alex-website/static/css/main.a7aab855.css",
-    "main.js": "/alex-website/static/js/main.72a367c6.js",
+    "main.js": "/alex-website/static/js/main.7e6ab07e.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
     "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
     "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0889ad74d9ff241f527.png",
@@ -10,7 +10,7 @@
     "static/media/roboto-all-400-normal.woff": "/alex-website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/nunito-all-500-normal.woff": "/alex-website/static/media/nunito-all-500-normal.9447b2110a55a6722369.woff",
     "static/media/One Tech Blog.png": "/alex-website/static/media/One Tech Blog.117589c59c28d96bcc48.png",
-    "static/media/alex_resume.pdf": "/alex-website/static/media/alex_resume.9599981ac0b19e816eba.pdf",
+    "static/media/alex_resume_v1.pdf": "/alex-website/static/media/alex_resume_v1.e9f11960ce26106fad97.pdf",
     "static/media/Password Generator.png": "/alex-website/static/media/Password Generator.b6c54b5bc81464aaad81.png",
     "static/media/roboto-latin-400-normal.woff2": "/alex-website/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/alex-website/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
@@ -31,11 +31,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
     "main.a7aab855.css.map": "/alex-website/static/css/main.a7aab855.css.map",
-    "main.72a367c6.js.map": "/alex-website/static/js/main.72a367c6.js.map",
+    "main.7e6ab07e.js.map": "/alex-website/static/js/main.7e6ab07e.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7aab855.css",
-    "static/js/main.72a367c6.js"
+    "static/js/main.7e6ab07e.js"
   ]
 }
