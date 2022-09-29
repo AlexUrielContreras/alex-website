@@ -22,7 +22,7 @@ function About({ currentW }) {
                 </Text>
             </Flex>
             <Box textAlign='center' fontSize='xl' py={{base: '10', lg: '20' }}>
-                <Link href={require('../assets/files/alex_resume.pdf')} download>Click Here to Download my Resume</Link>
+                <Link href={require('../assets/files/alex_resume_v1.pdf')} download>Click Here to Download my Resume</Link>
             </Box> 
         </>
 
