@@ -47,3 +47,14 @@ header {
   left: 0;
 }
 
+.proj-link-btn {
+  border: 1px solid black;
+  padding: .25rem;
+  font-size: .9rem;
+  font-weight: bold;
+  letter-spacing: 1px
+}
+
+.proj-link-btn:hover {
+  box-shadow: 1.5px 1.5px 5px black
+}

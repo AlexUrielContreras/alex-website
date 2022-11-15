@@ -1,4 +1,4 @@
-import Project from '../componets/Project'
+import ProjectBox from '../componets/ProjectBox'
 import { Flex } from '@chakra-ui/react'
 
 function Projects() {
@@ -43,9 +43,9 @@ function Projects() {
     ];
 
     return (
-        <Flex direction={'row'} flexWrap='wrap' align={{base:'center', md:'inherit'}} justifyContent={{base: 'center', lg: 'start' }}  pt={{base: '10'}}>
+        <Flex direction={'row'} flexWrap='wrap' gap='5' align={{base:'center', md:'inherit'}} justifyContent={{base: 'center', xl: 'start' }}  pt={{base: '10'}}>
             {projectInfo.map((info) => {
-                return <Project key={info.name} info={info} />
+                return <ProjectBox key={info.name} info={info} />
             })}
         </Flex>
     )
