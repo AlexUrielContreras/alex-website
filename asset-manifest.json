@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alex-website/static/css/main.a7aab855.css",
-    "main.js": "/alex-website/static/js/main.7e6ab07e.js",
+    "main.css": "/alex-website/static/css/main.62506193.css",
+    "main.js": "/alex-website/static/js/main.95883bd0.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
     "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
     "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0889ad74d9ff241f527.png",
@@ -30,12 +30,12 @@
     "static/media/menu.ico": "/alex-website/static/media/menu.bd7c21903bf54f3b630b.ico",
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
-    "main.a7aab855.css.map": "/alex-website/static/css/main.a7aab855.css.map",
-    "main.7e6ab07e.js.map": "/alex-website/static/js/main.7e6ab07e.js.map",
+    "main.62506193.css.map": "/alex-website/static/css/main.62506193.css.map",
+    "main.95883bd0.js.map": "/alex-website/static/js/main.95883bd0.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7aab855.css",
-    "static/js/main.7e6ab07e.js"
+    "static/css/main.62506193.css",
+    "static/js/main.95883bd0.js"
   ]
 }
