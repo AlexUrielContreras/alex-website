@@ -10,7 +10,7 @@ function About() {
             </Box>
 
             <Box pt={{base:'5'}} mt={{base: '5'}} borderTop='2px solid black'>
-                <Box fontSize={{base:'1.4rem', md: '2rem'}}>
+                <Box fontSize={{base:'1.4rem', md: '1.8rem'}}>
                     <Link href={require('../assets/files/alex_resume_v1.pdf')} download>Download my Resume</Link>
                 </Box> 
 

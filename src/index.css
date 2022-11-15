@@ -50,5 +50,7 @@ header {
 .nav-title {
   font-size: 1.9rem;
   font-weight: bolder;
+  position:absolute;
+  left: 0;
 }
 
