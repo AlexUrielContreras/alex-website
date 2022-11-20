@@ -8,12 +8,13 @@ import {
     Alert,
     AlertIcon,
     AlertTitle,
-    Heading
+    Heading,
+    Flex
 } from '@chakra-ui/react'
 import Socials from '../componets/Socials'
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-import validateEmail from '../utils/helpers'
+import { validateEmail } from '../utils/helpers'
 
 
 function Social() {
@@ -21,9 +22,9 @@ function Social() {
     const [emailSent, setEmailSent] = useState('');
 
 /* Checks a email against a regex and returns true or false */
-    function checkEmail({ target }) {
+    function checkEmail({target}) {
         const guestEmail = target.value
-        const isValid = validateEmail(guestEmail)
+        const isValid = validateEmail(guestEmail);
         if (!isValid) {
             setErrorMessage('Please enter a valid email')
         } else {
@@ -46,15 +47,21 @@ function Social() {
     }
     return (
         <>
-        {/* Alert for when a successful email is sent */}
-            {emailSent ? <Alert status='success' w='300px' position='absolute' right='20%' borderRadius='50'>
-                <AlertIcon />
-                <AlertTitle>{emailSent}</AlertTitle>
-                </Alert> : null
-            }
-            <Heading mt={{base: '8vh'}} ml={{md: '9vw'}} as='h1'> Email Me </Heading>
+            <Heading mt={{base: '8vh'}}> 
+                <Flex direction={{base: 'column', xl: 'row'}} justifyContent={{md: 'space-around'}} align={{base: 'center'}}>
+                    <h2>Email Me </h2>
 
-            <Box border= '4px' borderRadius={35} p={6} m='auto' mt={{base: '4vh'}} w={{base: '80vw', lg: '60vw'}}>
+                    {/* Alert for when a successful email is sent */}
+                    {emailSent ? 
+                        <Alert status='success' w={{base: '90%',lg: '50%',  xl: '23%'}} fontSize={{base: '1.2rem', lg: '1.3rem'}} borderRadius='50' p='2' my='2'>
+                        <AlertIcon />
+                        <AlertTitle>{emailSent}</AlertTitle>
+                        </Alert> : null
+                    }
+                </Flex>
+            </Heading>
+
+            <Box border= '4px' borderRadius={35} p={6} m='auto' mt={{base: '2vh'}} w={{base: '80vw', lg: '58vw'}}>
             <form onSubmit={sendEmail}>
                 <FormControl isRequired >
                     <FormLabel>Name</FormLabel>
@@ -81,7 +88,7 @@ function Social() {
                     : null}
             </form>
             </Box>
-            <Box py={{base: '9vh'}}>
+            <Box py={{base: '5vh'}}>
                 <Socials />
             </Box>
 
