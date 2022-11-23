@@ -8,7 +8,7 @@ function Projects() {
     return (
         <Flex direction={'row'} flexWrap='wrap' gap='5' align={{base:'center', md:'inherit'}} justifyContent={{base: 'center', xl: 'start' }}  py={{base: '10'}}>
             {projectInfo.map((info) => {
-                return <ProjectBox key={info.name} info={info} />
+                return <ProjectBox key={info.name} {...info} />
             })}
         </Flex>
     )
