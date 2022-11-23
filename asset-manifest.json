@@ -1,17 +1,11 @@
 {
   "files": {
     "main.css": "/alex-website/static/css/main.62506193.css",
-    "main.js": "/alex-website/static/js/main.95883bd0.js",
+    "main.js": "/alex-website/static/js/main.f178f156.js",
     "static/js/787.bbe01249.chunk.js": "/alex-website/static/js/787.bbe01249.chunk.js",
-    "static/media/GeekTutor.png": "/alex-website/static/media/GeekTutor.b423e154cf795dad9416.png",
-    "static/media/Bootleg.png": "/alex-website/static/media/Bootleg.a0889ad74d9ff241f527.png",
-    "static/media/noSQL Backend.png": "/alex-website/static/media/noSQL Backend.21de194a6312060d1b34.png",
-    "static/media/Budget Tracker.png": "/alex-website/static/media/Budget Tracker.e8b4b1c722d8f1958e7c.png",
     "static/media/roboto-all-400-normal.woff": "/alex-website/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/nunito-all-500-normal.woff": "/alex-website/static/media/nunito-all-500-normal.9447b2110a55a6722369.woff",
-    "static/media/One Tech Blog.png": "/alex-website/static/media/One Tech Blog.117589c59c28d96bcc48.png",
     "static/media/alex_resume_v1.pdf": "/alex-website/static/media/alex_resume_v1.e9f11960ce26106fad97.pdf",
-    "static/media/Password Generator.png": "/alex-website/static/media/Password Generator.b6c54b5bc81464aaad81.png",
     "static/media/roboto-latin-400-normal.woff2": "/alex-website/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
     "static/media/roboto-cyrillic-ext-400-normal.woff2": "/alex-website/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
     "static/media/nunito-latin-500-normal.woff2": "/alex-website/static/media/nunito-latin-500-normal.17dd5e8c51a178e95bef.woff2",
@@ -31,11 +25,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/alex-website/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/alex-website/index.html",
     "main.62506193.css.map": "/alex-website/static/css/main.62506193.css.map",
-    "main.95883bd0.js.map": "/alex-website/static/js/main.95883bd0.js.map",
+    "main.f178f156.js.map": "/alex-website/static/js/main.f178f156.js.map",
     "787.bbe01249.chunk.js.map": "/alex-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62506193.css",
-    "static/js/main.95883bd0.js"
+    "static/js/main.f178f156.js"
   ]
 }
