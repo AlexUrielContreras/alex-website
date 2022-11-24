@@ -10,11 +10,12 @@ import {
     AlertTitle,
     Heading,
     Flex
-} from '@chakra-ui/react'
-import Socials from '../componets/Socials'
+} from '@chakra-ui/react';
+
+import Socials from '../componets/Socials';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-import { validateEmail } from '../utils/helpers'
+import { validateEmail } from '../utils/helpers';
 
 
 function Social() {
@@ -25,6 +26,7 @@ function Social() {
     function checkEmail({target}) {
         const guestEmail = target.value
         const isValid = validateEmail(guestEmail);
+        
         if (!isValid) {
             setErrorMessage('Please enter a valid email')
         } else {

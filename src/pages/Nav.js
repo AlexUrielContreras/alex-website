@@ -26,8 +26,8 @@ function Nav({currentW, setCurrentTab, currentTab}) {
             </Flex> 
             :
             <Flex justifyContent='space-between'>
-            <Box p={3} onClick={onOpen} bg='#c5a688' ><Image src={require('../assets/icons/menu.ico')}/></Box>
-            <Drawer 
+                <Box p={3} onClick={onOpen} bg='#c5a688' ><Image src={require('../assets/icons/menu.ico')}/></Box>
+                <Drawer 
                     isOpen={isOpen} 
                     placement='top'
                     onClose={onClose}      

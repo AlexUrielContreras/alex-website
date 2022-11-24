@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChakraProvider, Link} from '@chakra-ui/react';
+import { ChakraProvider } from '@chakra-ui/react';
 
 /* Page Imports */
 import Nav from './pages/Nav'

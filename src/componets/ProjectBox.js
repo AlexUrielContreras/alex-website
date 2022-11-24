@@ -2,8 +2,6 @@ import { Box,Image,Heading, Text, Flex } from '@chakra-ui/react'
 
 function Project({name , imgSrc , description, tech, liveSite, githubRepo}) {
 
-    console.log(imgSrc)
-    
     return (
         <Box border='2px' as='article' w={{base:'80vw', md: '39vw', xl:'20vw'}}  _hover={{boxShadow:'dark-lg'}}>
             <Image src={process.env.PUBLIC_URL + imgSrc } alt='personal projects thubnail'/>
