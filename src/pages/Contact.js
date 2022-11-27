@@ -24,15 +24,15 @@ function Social() {
 
 /* Checks a email against a regex and returns true or false */
     function checkEmail({target}) {
-        const guestEmail = target.value
+        const guestEmail = target.value;
         const isValid = validateEmail(guestEmail);
         
         if (!isValid) {
-            setErrorMessage('Please enter a valid email')
+            setErrorMessage('Please enter a valid email');
         } else {
-            setErrorMessage('')
+            setErrorMessage('');
         }
-    }
+    };
 
     function sendEmail(e) {
         e.preventDefault()
@@ -45,8 +45,10 @@ function Social() {
                 console.log('Failed', err)
                 setEmailSent(err)
             })
-        e.target.reset()
-    }
+            
+        e.target.reset();
+    };
+
     return (
         <>
             <Heading mt={{base: '8vh'}}> 
