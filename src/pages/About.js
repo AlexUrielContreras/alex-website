@@ -5,7 +5,7 @@ function About() {
     return (
         <Box as='section' align='center' mt={{ base: '20vh', md: '23vh'}}>
             <Box>
-                <Heading as='h1' letterSpacing='2px' fontSize={{ base: '3rem', md: '4rem' , lg: '5rem' }}>Alex Contreras</Heading>
+                <Heading as='h1' fontWeight='bold' letterSpacing='2px' fonts='heading' fontSize={{ base: '3rem', md: '4rem' , lg: '5rem' }}>Alex Contreras</Heading>
                 <Heading as='h2' fontSize={{ base: '1.6rem', md: '2rem', lg: '2.5rem' }}>Full Stack Developer</Heading>
             </Box>
 

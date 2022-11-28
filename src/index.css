@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +10,6 @@ html,body{
 
 #root {
   min-height: 100vh;
-  font-family: "Roboto", sans-serif;
   background-color: #c5a688;
   color: black
 }
@@ -42,7 +42,6 @@ header {
 
 .nav-title {
   font-size: 1.5rem;
-  font-weight: bolder;
   position:absolute;
   left: 0;
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ChakraProvider } from '@chakra-ui/react';
+
 
 /* Page Imports */
 import Nav from './pages/Nav'
@@ -8,10 +8,6 @@ import Skills from './pages/Skill'
 import Project from './pages/Project'
 import Social from './pages/Contact'
 
-/* Style Imports */
-import theme from './theme'
-import '@fontsource/roboto/400.css'
-import '@fontsource/nunito/500.css'
 
 function App() { 
 
@@ -39,15 +35,16 @@ function App() {
   };
 
   return (
-    <ChakraProvider theme={theme}>
+    <>
       <header>
         <Nav setCurrentTab={setCurrentTab} currentTab={currentTab} currentW={currentW}/>
       </header>
       <main>
         {renderTab(currentTab.tab)}
       </main>
-    </ChakraProvider>
-  );
+    </>
+
+  )
 }
 
 export default App;

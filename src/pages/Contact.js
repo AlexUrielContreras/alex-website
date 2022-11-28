@@ -65,32 +65,32 @@ function Social() {
                 </Flex>
             </Heading>
 
-            <Box border= '4px' borderRadius={35} p={6} m='auto' mt={{base: '2vh'}} w={{base: '80vw', lg: '58vw'}}>
-            <form onSubmit={sendEmail}>
-                <FormControl isRequired >
-                    <FormLabel>Name</FormLabel>
-                    <Input type='text' variant='filled' name='name' />
-                </FormControl>
+            <Box border= '4px' borderRadius={35} p={{base: '4', lg: '6'}} m='auto' mt={{base: '2vh'}} w={{base: '80vw', lg: '58vw'}}>
+                <form onSubmit={sendEmail}>
+                    <FormControl isRequired >
+                        <FormLabel>Name</FormLabel>
+                        <Input type='text' variant='filled' name='name' />
+                    </FormControl>
 
-                <FormControl >
-                    <FormLabel mt={5}>Subject</FormLabel>
-                    <Input type='text' variant='filled' name='subject' />
-                </FormControl>
+                    <FormControl >
+                        <FormLabel mt={5}>Subject</FormLabel>
+                        <Input type='text' variant='filled' name='subject' />
+                    </FormControl>
 
-                <FormControl isRequired >
-                    <FormLabel mt={5}>Email address</FormLabel>
-                    <Input type='text' variant='filled' name='email' onChange={checkEmail} />
-                    {errorMessage}
-                </FormControl>
+                    <FormControl isRequired >
+                        <FormLabel mt={5}>Email address</FormLabel>
+                        <Input type='text' variant='filled' name='email' onChange={checkEmail} />
+                        {errorMessage}
+                    </FormControl>
 
-                <FormControl isRequired >
-                    <FormLabel mt={5}>Message</FormLabel>
-                    <Textarea type='text' variant='filled' name='message' />
-                </FormControl>
-                {errorMessage === '' ?
-                    <Button type='submit' variant='outline' mt={5}>Send</Button>
-                    : null}
-            </form>
+                    <FormControl isRequired >
+                        <FormLabel mt={5}>Message</FormLabel>
+                        <Textarea type='text' variant='filled' name='message' />
+                    </FormControl>
+                    {errorMessage === '' ?
+                        <Button type='submit' variant='outline' mt={5}>Send</Button>
+                        : null}
+                </form>
             </Box>
             <Box py={{base: '5vh'}}>
                 <Socials />
