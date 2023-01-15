@@ -4,7 +4,7 @@ const projects = [
        imgSrc: '/assets/project-img/geek-tutor.jpg',
        description: 'GeekTutor is a web app where users can view and schedule sessions with tutors. Team of 4 following the Agile development methodology. I implement queries to display their data dynamicle on the webpage by querying the databse and the login/logout functionality.',
        tech: ['React Bootstrap', 'MERN', 'Javascript', 'Apollo Servers', 'Email.js'],
-       liveSite: 'https://geektutor-123.herokuapp.com/',
+       liveSite: 'https://geektutor.herokuapp.com/',
        githubRepo: 'https://github.com/AlexUrielContreras/GeekTutors'           
    },
    {
