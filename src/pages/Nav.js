@@ -7,22 +7,23 @@ import {
     Image,
     DrawerOverlay,
     DrawerContent,
-    useDisclosure } from '@chakra-ui/react';
-
+    useDisclosure 
+} from '@chakra-ui/react';
 
 function Nav({currentW, setCurrentTab, currentTab}) {
-    const tabs = ['Skills', 'Projects', 'Contacts'];
+    const tabs = ['HOME', 'SKILLS', 'PROJECTS', 'CONTACTS'];
 
     const {isOpen, onOpen, onClose} = useDisclosure();
 
     return (
         <>
-            {currentW > 767 ? <Flex justifyContent={{base:'flex-end'}} fontSize='xl' py={5}> 
-                {currentTab !== '' ?  <Link className='nav-title' ml='10' onClick={() => setCurrentTab('')}>Alex Contreras</Link> : null}
-            
-                {tabs.map(tab => (
-                    <Link mr={{md: '6'}} fontSize='1.25rem' key={tab} onClick={() => setCurrentTab({tab})} className={`${currentTab.tab === tab && 'selected'}`}>{tab}</Link>
-                ))}       
+            {currentW > 767 ? <Flex justifyContent={{base:'center'}} fontSize='xl' py={5}> 
+                <ul>
+                    {tabs.map(tab => (
+                        <li key={tab} onClick={() => setCurrentTab(tab)} className={`tabs ${currentTab === tab && 'selected'}`}>{tab}</li>
+                    ))}       
+
+                </ul>
             </Flex> 
             :
             <Flex justifyContent='space-between'>
@@ -48,8 +49,6 @@ function Nav({currentW, setCurrentTab, currentTab}) {
                 
             </Flex>
             }
-         
-
         </>
     )
 };

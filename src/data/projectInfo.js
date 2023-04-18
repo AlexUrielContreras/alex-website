@@ -11,7 +11,7 @@ const projects = [
       name: 'Expense Tracker',
       imgSrc: '/assets/project-img/expense-tracker.png',
       description: 'The website allows users to create an account and easily track their finances. Built with the MERN (MongoDB, Express.js, React.js, and Node.js) tech stack, the website offers a fast and responsive user experience. Users can monitor their income and expenses in real-time, and the website provides a simple way to manage their finances',
-      tech: ['MERN', ,'Sass' ,'JWT', 'Bcrypt', 'React-Router'],
+      tech: ['MERN', 'Sass' ,'JWT', 'Bcrypt', 'React-Router'],
       liveSite: 'https://expense--tracker.herokuapp.com/',
       githubRepo: 'https://github.com/AlexUrielContreras/expense-tracker'
    },
