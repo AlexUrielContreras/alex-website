@@ -11,6 +11,7 @@ html,body{
 
 #root {
   min-height: 100vh;
+  background-color: #c5a688;
 }
 
 li {
@@ -36,7 +37,7 @@ ul {
   margin-right: 2vw;
   cursor: pointer;
   color: lightgrey;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .selected {
@@ -59,4 +60,23 @@ ul {
 
 .proj-link-btn:hover {
   box-shadow: 1.5px 1.5px 5px black
+}
+
+.social-icon:hover {
+  transform: scale(1.1, 1.1)
+}
+
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 2s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
