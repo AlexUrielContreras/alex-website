@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b181aab.css",
-    "main.js": "/static/js/main.7fc50bd3.js",
+    "main.css": "/static/css/main.82a6a3be.css",
+    "main.js": "/static/js/main.9778de69.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
-    "static/media/alex_resume_v1.pdf": "/static/media/alex_resume_v1.f7486efd09679260c176.pdf",
+    "static/media/Alex_Contreras_V2_Resume_Website.pdf": "/static/media/Alex_Contreras_V2_Resume_Website.fd4969e8605d28144b0c.pdf",
     "static/media/github.ico": "/static/media/github.4b3d47fb8f6c52a39f57.ico",
     "static/media/linkedin.ico": "/static/media/linkedin.ee171783d4b9cf590b15.ico",
-    "static/media/twitter.ico": "/static/media/twitter.7fbe80f1a18c9cc7e979.ico",
     "static/media/home.ico": "/static/media/home.6f35c6a59a069844ce92.ico",
     "static/media/menu.ico": "/static/media/menu.bd7c21903bf54f3b630b.ico",
     "index.html": "/index.html",
-    "main.4b181aab.css.map": "/static/css/main.4b181aab.css.map",
-    "main.7fc50bd3.js.map": "/static/js/main.7fc50bd3.js.map",
+    "main.82a6a3be.css.map": "/static/css/main.82a6a3be.css.map",
+    "main.9778de69.js.map": "/static/js/main.9778de69.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b181aab.css",
-    "static/js/main.7fc50bd3.js"
+    "static/css/main.82a6a3be.css",
+    "static/js/main.9778de69.js"
   ]
 }
