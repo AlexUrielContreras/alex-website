@@ -11,7 +11,7 @@ function About() {
 
             <Box className='fade-in' pt={{base:'5'}} mt={{base: '5'}} borderTop='2px solid black'>
                 <Box fontSize={{base:'1.4rem', md: '1.75rem'}}>
-                    <Link href={require('../assets/files/alex_resume_v1.pdf')} download>Download my Resume</Link>
+                    <Link href={require('../assets/files/Alex_Contreras_V2_Resume_Website.pdf')} download>Download my Resume</Link>
                 </Box> 
 
                 <Box mt={6}>

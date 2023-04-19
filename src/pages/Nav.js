@@ -39,7 +39,7 @@ function Nav({currentW, setCurrentTab, currentTab}) {
                         <DrawerBody>
                             <Flex justifyContent='space-around'>
                                 {tabs.map(tab => (
-                                <Link py={2} key={tab} onClick={() => setCurrentTab({tab})} fontSize='lg' fontWeight={600} className={`${currentTab.tab === tab && 'sm-nav'}`}>{tab}</Link>
+                                <Link py={2} key={tab} onClick={() => setCurrentTab(tab)} fontSize='lg' fontWeight={600} className={`${currentTab === tab && 'sm-nav'}`}>{tab}</Link>
                                 ))}
                             </Flex>
                         </DrawerBody>

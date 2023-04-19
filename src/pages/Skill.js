@@ -10,7 +10,7 @@ function Skills() {
             ];
 
     return (
-        <Flex direction={{base: 'column', lg: 'row'}} justifyContent={{lg:'space-around'}} align={{base:'center', md:'baseline'}} mt={{lg: '5vh'}} pb='10' wrap='wrap' letterSpacing='2px'>
+        <Flex direction={{base: 'column', lg: 'row'}} justifyContent={{lg:'space-around'}} align={{base:'center', md:'baseline'}} mt={{lg: '10vh'}} pb='10' wrap='wrap' letterSpacing='2px'>
             <SkillBox title={'Frontend'} tech={tech[0]} />  
             <SkillBox title={'Backend'} tech={tech[1]} />
             <SkillBox title={'Database'} tech={tech[2]} />

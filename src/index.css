@@ -36,12 +36,13 @@ ul {
 .tabs {
   margin-right: 2vw;
   cursor: pointer;
-  color: lightgrey;
+  color: grey;
   font-weight: 400;
 }
 
 .selected {
   color: black;
+  text-decoration: underline;
 }
 
 .skill-item {
